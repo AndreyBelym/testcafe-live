@@ -1,0 +1,26 @@
+{
+  "name": "testcafe-live",
+  "version": "0.0.1",
+  "description": "Watcher for TestCafe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo no tests"
+  },
+  "bin": {
+    "testcafe-live": "./bin/testcafe-live.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreyBelym/testcafe-live.git"
+  },
+  "author": "Andrey Belym",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndreyBelym/testcafe-live/issues"
+  },
+  "homepage": "https://github.com/AndreyBelym/testcafe-live#readme",
+  "dependencies": {
+    "async-exit-hook": "^2.0.1",
+    "testcafe": "^0.18.2"
+  }
+}
